@@ -1,0 +1,4 @@
+0. The dimensions the framework can allow depend on the constrains DIM_MIN and DIM_MAX, which are 3 and 9 respectively.Hence, the side length of the board can be any integer between 3 and 9 (both inclusive)
+1. The board game is represented via a 2-dimensional array
+2. The Greet function
+3. int(), move(), draw() and won()

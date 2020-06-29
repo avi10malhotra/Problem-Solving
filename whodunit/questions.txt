@@ -1,0 +1,26 @@
+1.  stint.h is a header file which consists of numerous typedef's that specify the custom made integer values in the file.
+
+2.  These enable the programmer to utilize the exact and precize amount of space needed in a file.
+
+3.  BYTE = 1 byte
+    DWORD = 4 bytes
+    LONG = 4 bytes
+    WORD = 2 bytes
+
+4.  BITMAPFILEHEADER and BITMAPINFOHEADER are the two header files.
+
+5.  bfSize is the total number of bytes in the file whereas biSize is the number of bytes in the info-header.
+
+6.  If the biHeight is negative, then the bitmap is a top-botton DIB and its origin is at the top-left.
+
+7.  The biBitCount specifies the BMP's bits per colour.
+
+8.  The function fopen may return NULL in the specified lines in the code because the function will not be able to find a file.
+
+9.  This is so because the programmer only wants to copy one individual strucutre at a time.
+
+10. ( 4 - (3*3) % 4) % 4 iss equal to 3.
+
+11. The fseek function allows the programmer to move to a specified location within the file. Analogy - like rewinding/ fast forwarding in a DVD player.
+
+12. It indicates the current position of the position pointer.
