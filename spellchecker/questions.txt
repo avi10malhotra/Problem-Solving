@@ -1,0 +1,19 @@
+0.  pneumonoultramicroscopicsilicovolcanoconiosis is the predefined length of the program. That is, a word in the dictionary will be
+    no longer than this word, which consists of 45 letters.
+    
+1.  Getrusage is a function which returns the resource usage statastics of a program.
+
+2.  The struct has 16 members in total.
+
+3.  Before and After are used instead of values because they help in determining the contribution of an event to the resource usage
+    by measuring the usage before and after the particular event has occured.
+    
+4.  The program uses a for loop which enables the file to get a character, read it and move onto the next one (by incrementing)
+    until the end of file (EOF) has been reached. While checking each and every word, the program also ensures that only 
+    alphabetical characters and apostrophes are accepted and added to the word. Numbers or strings longer than the 'length' are 
+    ignored.
+    
+5.  Using fgetc() would provide a programmer with the ability to at ease look at each and every character in the word wheras using
+    fscanf() would make it difficult for programmers to change undesirable punctuation etc. in a word.
+    
+6.  The parameters are declared as constant to ensure that they are not allowed to be changed throughout the program.
